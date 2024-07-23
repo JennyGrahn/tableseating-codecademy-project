@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background-color: #535F52;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Cinzel', serif;
+    font-size: 2rem;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    color: #F5F5F5;
+    text-align: center;
+}
+
+p {
+    font-family: 'Fauna One', serif;
+    font-size: 1rem;
+    color: #F5F5F5;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    font-family: 'Fauna One', serif;
+    font-size: 20px;
+    color: #F5F5F5;
+    border: 2px solid #F5F5F5;
+    padding: 10px;
+    text-decoration: none;
+    margin: 1rem;
+    text-align: center;
+    flex-grow: 3;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td,
+tr {
+    border: 2px solid #F5F5F5;
+    padding: 1rem;
+    /*text-align: left;*/
+    max-width: 85%;
+    margin: 0 auto;
+
+
+}
+
+td a {
+    text-decoration: none;
+
+}
+
+.about-text {
+    display: flex;
+    /* Make the container a flex container */
+    flex-direction: column;
+    /* Stack the items vertically */
+    justify-content: center;
+    /* Center the items vertically */
+    align-items: center;
+    /* Center the items horizontally */
+}
+
+.about-text p {
+    margin: 0 auto;
+    max-width: 83%;
+    text-align: center;
+    padding: 1rem;
+    color: #F5F5F5;
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #7ABFCF;
+    color: #F5F5F5;
+    border: 2px solid #F5F5F5;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 1rem;
+    text-align: center;
+    font-family: 'Fauna One', serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    /* Center content inside the button */
+    width: 14rem;
+    text-decoration: none;
+    /* Ensure the button width fits its content */
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: inherit;
+    /* Ensures the link inside the button inherits the color of the button */
+}
