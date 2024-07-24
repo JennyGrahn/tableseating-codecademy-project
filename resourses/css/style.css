@@ -47,6 +47,36 @@ nav a {
     flex-grow: 3;
 }
 
+.hero-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* optional */
+    position: relative;
+}
+
+.text-banner {
+    position: absolute;
+    height: 30%;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    top: 25%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 30px;
+}
+
+.hero-image {
+    display: block;
+    max-width: 85%;
+    /* or 100% depending on the design */
+    height: auto;
+}
+
+
 table {
     border-collapse: collapse;
     width: 85%;
@@ -84,6 +114,7 @@ td a {
     color: #F5F5F5;
     border: 2px solid #F5F5F5;
     border-radius: 5px;
+    background-color: #535F52;
 }
 
 .btn {
@@ -136,8 +167,6 @@ td a {
     position: relative;
 }
 
-
-
 .employee-img {
     width: 25rem;
 }
@@ -157,30 +186,3 @@ td a {
     border-radius: 5px;
     max-width: 25rem;
 }
-
-
-
-/*.image1 {
-    z-index: 1;
-    opacity: 0.8;
- 
-
-
-.image2 {
-    z-index: 2;
-   
-    left: 50px;
-   
-    top: 50px;
-}
-
-.image3 {
-    z-index: 3;
-    opacity: 0.8;
-    
-    left: 100px;
-   
-    top: 100px;
-   
-    
-}*/
